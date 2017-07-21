@@ -2,14 +2,42 @@ html {
   background-color: #FFFFFF;
 }
 
+body {
+	margin: 0px auto;
+}
+
 .all  {
-  margin: 0px auto;
-  width: 1920px;
-  height: 1080px;
+ 	margin: 0px auto;
+  	width: 100%;
+  	height: 100%;
+}
+
+.header {
+	background-color: #000000;
+	width: 1920px;
+  	height: 400px;
 }
 
 .main {
-  margin: 0px auto;
-  width: 1600px;
-  height: 600px;
+	margin: 0px auto;
+	width: 1920px;
+	height: 600px;
+}
+
+#one {
+	width: 1920px;
+	height: 1000px;
+}
+
+.wrapper {
+	background-color: #fafafa;
+}
+
+.inner {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 1600px;
+	height: 900px;
 }
